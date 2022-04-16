@@ -1,0 +1,148 @@
+body{
+  margin:0%;
+  border: 0px;
+}
+
+
+.head-container{
+    display:grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    background-color: #010101;
+    height:108px;
+}
+
+.head-container>.logo img{
+    width:300px;
+    height:50px;
+    padding: 25px;
+}
+
+/* Links */
+.head-container>.links-container{
+  display:flex;
+  justify-content: flex-start;
+  padding-top: 15px;
+  align-items: center;
+  font-weight: 900;
+}
+
+.head-container>.links-container>.explore{
+  display:flex;
+  align-self: flex-start;
+  height:15px;
+  color:rgb(207, 207, 80);
+  font-family:'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 1.2em;
+  margin-top:-10px;
+  margin-left:-15px;
+}
+
+.head-container>.links-container>.nav-link>.pens{
+  margin-left:-87px;
+}
+
+.head-container>.links-container>.nav-link>.project{
+  margin-left:-10px;
+}
+
+.head-container>.links-container>.nav-link a{
+    font-family:'Nunito', sans-serif;
+    text-decoration: none;
+    color:white;
+    font-size: 1.5em;
+    padding-right: 15px;
+  
+}
+
+.drop-down{
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+    font-size: 1.15rem;
+    display:flex;
+    align-items: center;
+    padding-left: 20px;
+    opacity: 75%;
+    font-family:'Nunito', sans-serif;
+    font-weight:500;
+}
+ 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 125px;
+    padding: 12px 16px;
+}
+
+.dropdown-content a{
+  text-decoration: none;
+  color:black;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+    color:black;
+}
+
+.links-container>.drop-down>.dropdown i{
+    padding-left:15px;
+}
+
+/* login */
+.login-container{
+  display:flex;
+  align-items:center;
+  justify-content: end;
+  margin-bottom:15px;
+  font-weight: 700;
+}
+
+.login-container a{
+  text-decoration:none;
+  font-family:'Nunito', sans-serif;
+  color:white;
+  font-size:1.35em;
+}
+
+.login-container>.a1{
+    background-color: #373741;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    border-radius:5px;
+}
+
+.login-container>.a1 i{
+  color:rgb(57, 241, 128);
+}
+
+.login-container>.a2 a{
+  color: #60647c;
+  font-size:2em;
+  padding-left:25px;
+  padding-right: 25px;
+}
+
+.login-container>.a3{
+  background-color: #373741;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 5px;
+  margin-right:25px;
+}
+
+.login-container>.a4{
+  background-color: #373741;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-right: 15px;
+}

@@ -1,0 +1,52 @@
+.footer-container{
+    height:212px;
+    background-color:#141518;
+}
+
+.footer-container>.top{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height:75px;
+    font-size: 1.5em;
+    font-family:'Nunito', sans-serif;
+    font-weight: 700;
+    color: white;
+    background-color: #373741;
+}
+
+.footer-container>.top strong{
+    font-family: 'Lato', sans-serif;
+    font-weight:900;
+    font-size:1.4em;
+    padding-bottom: 7px;
+    padding-left: 5px;
+}
+
+.footer-container>.top>.teams{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(114, 107, 107);
+}
+
+.footer-container>.top>.education{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(114, 107, 107);
+}
+
+.footer-container>.top>.privacy{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(114, 107, 107);
+}
+
+.footer-container>.top>.writing{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(114, 107, 107);
+}
+

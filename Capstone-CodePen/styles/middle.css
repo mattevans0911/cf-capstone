@@ -1,0 +1,101 @@
+.middle-container{
+    background: rgb(22,23,24);
+    background: linear-gradient(90deg, rgba(22,23,24,1) 0%, rgba(65,67,79,1) 20%, rgba(0,0,0,1) 100%, rgba(9,9,9,1) 100%);
+    height:625px;
+    margin-top:-16px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Left */
+.middle-container>.left-side>.description>.top-text{
+    color:rgb(226, 226, 247);
+    font-size:3.1em;
+    margin:50px;
+    font-weight:300;
+ }
+
+.middle-container>.left-side>.description>.top-text b{
+    color:white;
+}
+
+.middle-container>.left-side>.description>.bottom-text{
+    color:rgb(174, 174, 189);
+    font-size:2.7em;
+    margin:50px;
+    line-height: 50px;
+    font-weight:300;
+}
+
+.middle-container>.left-side>.description>.button{
+    display:flex;
+}
+
+.middle-container>.left-side>.description>.button>.sign-up{
+    margin-left: 50px;
+    margin-right:20px;
+}
+
+.middle-container>.left-side>.description>.button>.sign-up a{
+    background-color: rgb(57, 241, 128);
+    border: none;
+    color: black;
+    padding: 20px 50px;
+    text-align: center;
+    display: inline-block;
+    font-size: 2em;
+    border-radius:3px;
+    text-decoration: none;
+    font-weight:700;
+    letter-spacing: 1px;
+}
+
+.middle-container>.left-side>.description>.button>.learn-more a{
+    background-color: #131417;
+    border: none;
+    color: white;
+    padding: 20px 50px;
+    text-align: center;
+    display: inline-block;
+    font-size: 2em;
+    border-radius:3px;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* right */
+.middle-container>.right-side>.text{
+    display:flex;
+    font-size:1.5em;
+    justify-content:center;
+    margin-right:320px;
+    font-family:'Nunito', sans-serif;
+    font-weight: 700;
+    margin-top:30px;
+    margin-bottom: -20px;
+}
+
+.middle-container>.right-side>.text>.this{
+    color: white;
+}
+
+.middle-container>.right-side>.text>.code{
+    color:rgb(76, 214, 248);
+    padding-left:10px;
+}
+.middle-container>.right-side>.text>.end{
+    color: white;
+    padding-left:3px;
+}
+
+.middle-container>.right-side>.picture img{
+    height:535px;
+    width:800px;
+}
+
+.middle-container>.right-side>.picture{
+    display:flex;
+    justify-content: flex-end;
+}
